@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul,
+ol,
+menu {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1930px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.position{
+  background-color: rgb(124, 219, 219);
+  height: 100vh;
+}
+.position__title{
+  text-align: center;
+  font-size: 100px;
+}
