@@ -30,15 +30,16 @@ a {
   text-align: center;
   font-size: 100px;
 }
-.item{
-  list-style: none;
-  font-size: 30px;
+.position__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.position__item {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin-right: 30px;
+  margin-bottom: 30px;
   text-align: center;
 }
-.item2 {
-  list-style: none;
-  font-size: 30px;
-  text-align: center;
-  }
-
-
