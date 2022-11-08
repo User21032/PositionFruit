@@ -24,7 +24,7 @@ a {
 }
 .position {
   background-color: rgb(124, 219, 219);
-  height: 100vh;
+  height: 300vh;
 }
 .position__title {
   text-align: center;
@@ -42,4 +42,78 @@ a {
   margin-right: 30px;
   margin-bottom: 30px;
   text-align: center;
+  position: relative;
+}
+.position__item::after {
+  content: "";
+  color: red;
+}
+.position__item::before {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+  bottom: 10px;
+  right: 20px;
+}
+.position__item--lemon::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/3137/3137034.png);
+}
+.position__item--banana::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2909/2909761.png);
+}
+.position__item--orange::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2517/2517978.png);
+}
+.position__item--grape::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/765/765634.png);
+}
+.position__item--pear::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/6178/6178838.png);
+}
+.position__item--dragonfruit::before {
+  background-image: url(https://img.freepik.com/premium-vector/tropical-red-pitaya-or-dragon-fruit-isolated-on-whitevector-illustration_273525-1040.jpg?w=826);
+}
+.position__item--apple::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/415/415682.png);
+}
+.position__item--merry::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/3137/3137038.png);
+}
+.position__item--kiwi::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/3786/3786242.png);
+}
+.position__item--passionfruit::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1791/1791364.png);
+}
+.position__item--carrot::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1514/1514935.png);
+}
+.position__item--potato::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/3585/3585607.png);
+}
+.position__item--onion::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2522/2522907.png);
+}
+.position__item--tomato::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1202/1202125.png);
+}
+.position__item--cucumber::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/590/590694.png);
+}
+.position__item--cabbage::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1054/1054150.png);
+}
+.position__item--beet::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2149/2149839.png);
+}
+.position__item--pumpkin::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1140/1140019.png);
+}
+.position__item--zucchini::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/680/680932.png);
+}
+.position__item--corn::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2619/2619499.png);
 }
