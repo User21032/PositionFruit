@@ -44,10 +44,6 @@ a {
   text-align: center;
   position: relative;
 }
-.position__item::after {
-  content: "";
-  color: red;
-}
 .position__item::before {
   content: "";
   position: absolute;
